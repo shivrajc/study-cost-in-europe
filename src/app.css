@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --background-gray: hsl(204, 8%, 90%);  
+  --dark-gray-text: hsl(210, 4%, 20%);  
+  --light-gray-text: hsl(204, 8%, 80%);  
+  --top-left-box-color: hsl(32, 100%, 60%);
+  --top-right-box-color: hsl(4, 90%, 60%);
+  --bottom-left-box-color: hsl(157, 100%, 32%);
+  --bottom-right-box-color: hsl(60, 100%, 50%);
+  --top-left-box-label-color: rgb(125, 81, 1);
+  --top-right-box-label-color: rgb(153, 0, 0);
+  --bottom-left-box-label-color: rgb(1, 88, 1);
+  --bottom-right-box-label-color: rgb(125, 121, 1);
+  --scatter-plot-dot-color: rgb(66, 81, 97);
+  --scatter-plot-dot-hover-color: rgb(168, 204, 222);
+  --scatter-plot-label-color: rgb(90, 99, 110);
+  --bar-chart-red-color: hsl(4, 90%, 90%);
+  --bar-chart-green-color: hsl(157, 80%, 88%);
+  --table-hover-color: hsl(220, 28%, 94%);
+  --table-row-selected-color: hsl(222, 53%, 63%);
+  --table-row-selected-label-color: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "PT Sans", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #ffffff;
+  }
+}
